@@ -3,7 +3,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>LOCATION ACCUEIL</title>
-    <link rel="stylesheet" type="text/css" href="styleaccueil.css">
+    <link rel="stylesheet" type="text/css" href="styleindex.css">
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="/LocationVoiture/Content/css/stylecond.css">
     <!-- Favicons -->
