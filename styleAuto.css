@@ -1,0 +1,32 @@
+
+#ajoutAuto {
+  width:100%;
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   background: #53af57;
+}
+#contenu{
+  width:30%;
+  margin:0 auto;
+  float: left;
+
+}
+input[type=text],input[type=file],input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.retour{
+	text-decoration: none;
+	color: black;
+	border: 2px solid green;
+	background-color: silver;
+	padding: 2%;
+
+}
+
+
