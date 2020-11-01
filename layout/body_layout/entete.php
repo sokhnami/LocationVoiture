@@ -1,14 +1,14 @@
-<div id="entete"> 
+ <!-- Hiello je suis l'entete de la page c'est moi la belle voiture qui contient les options -->
+        <div id="entete"> <!--debut entete-->
             <img class="image_entete" src="image/fondindex.JPG" /> 
             <div id="trucs">
                 <p class="nomsite"> Kangam Automobile</p> 
-                
-                <a href="indexAccueil.php?op=1"><b class="options">Espace Auto</b></a>
-                <a href="indexAccueil.php?op=2"><b class="options">Espace Réservation</b></a>
-                <a href="indexAccueil.php?op=3"><b class="options">Espace Compte</b></a>
-                <a href="indexAccueil.php?op=4"><b class="options">Historique Client</b></a>  
-                <!-- <a href="pageMain.php"><b class="options">Accueil</b></a> -->
-                <a href="deconnexion.php"><b class="options">Deconnexion</b></a>                                           
+              
+                <a href="indexAccueil.php?op=1"><b id="lesoptions" class="options">Offres</b></a> 
+                <a href="indexAccueil.php?op=2"><b class="options">Espace Clients</b></a>
+                <a href="compte/connexion.php"><b class="options">S'incrire/Se connecter</b></a>
+                <a href="indexAccueil.php?op=5"><b class="options">FAQ</b></a>
+                                           
             </div>          
             <div id="formrecherche">
                 <form name="formrecherche" method="post" action="">
@@ -18,4 +18,4 @@
                 </form>
                 
             </div>
-        </div>
+        </div> <!--fin Entete-->
