@@ -6,8 +6,7 @@
               
                 <a href="indexAccueil.php?op=1"><b id="lesoptions" class="options">Offres</b></a> 
                 <a href="indexAccueil.php?op=2"><b class="options">Espace Clients</b></a>
-                <a href="indexAccueil.php?op=3"><b class="options">S'incrire</b></a>
-                <a href="compte/connexion.php"><b class="options">Se connecter</b></a>
+                <a href="compte/connexion.php"><b class="options">S'incrire/Se connecter</b></a>
                 <a href="indexAccueil.php?op=5"><b class="options">FAQ</b></a>
                                            
             </div>          

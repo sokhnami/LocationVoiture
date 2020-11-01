@@ -1,25 +1,25 @@
 <?php
     session_start();
-    require_once("connexion/dbconnexion.php"); 
+    require_once("../connexion/dbconnexion.php"); 
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-<?php include("layout/head_layout/header.php"); ?>
+<?php include("../layout/head_layout/header.php"); ?>
     <body >
         <?php
-        include("layout/body_layout/entete.php");
+        include("../layout/body_layout/entete.php");
          
         if(isset($_GET['op'])) {
             $opt=$_GET['op'];
             if($opt==1){
             	// include("layout/body_layout/entete.php");
-         		include("layout/body_layout/gerervoiture.php");
+         		include("../layout/body_layout/gerervoiture.php");
          	}
          	elseif($opt==2)
-         		include("layout/body_layout/gererreservation.php");
+         		include("../layout/body_layout/gererreservation.php");
          }
         else
-        	include("layout/body_layout/gerervoiture.php");
+        	include("../layout/body_layout/gerervoiture.php");
 
             
                  

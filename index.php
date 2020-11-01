@@ -23,11 +23,6 @@
                            # je méne vers espaces client
                         echo "page espace client";
                        }   
-                    elseif ($l==3) {
-                        # je méne vers la page inscription
-                        echo "page inscription";
-                        // include("layout/body_layout/inscription.php");
-                    }
                     elseif ($l==4) {
                         # je méne vers la page se connecter
                         echo "page connexion";}
